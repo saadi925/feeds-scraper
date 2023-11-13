@@ -1,0 +1,7 @@
+development:
+  driver: postgres
+  open: postgres://localhost:5432/your_database_name?sslmode=disable
+
+production:
+  driver: postgres
+  open: postgres://localhost:5432/your_database_name?sslmode=disable

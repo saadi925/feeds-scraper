@@ -1,0 +1,636 @@
+    1  docker
+    2  la
+    3  ls
+    4  cd ..
+    5  ls
+    6  ls -a
+    7  cd codestacklab/
+    8  ls -a
+    9  vim .bashrc
+   10  la
+   11  clear
+   12  npm -v
+   13  npm 
+   14  npm --version
+   15  node --version
+   16  nodejs --version
+   17  yarn
+   18  clear
+   19  ls
+   20  ls android/
+   21  clear
+   22  cd ..
+   23  ls
+   24  cd codestacklab/
+   25  clear
+   26  mkdir work
+   27  cd work/
+   28  clear
+   29  npx react-native doctor
+   30  $ANDRORID_HOME
+   31  cd ..
+   32  ls
+   33  cd android/
+   34  ls
+   35  cd ~
+   36  export ANDROID_HOME=$HOME/android
+   37  export ANDROID_SDK_ROOT=${ANDROID_HOME}
+   38  export PATH=${ANDROID_HOME}/cmdline-tools/latest/bin:${ANDROID_HOME}/platform-tools:${ANDROID_HOME}/tools:${ANDROID_HOME}/tools/bin:${PATH}
+   39  $ANDROID_HOME
+   40  cd work/
+   41  npx react-native doctor
+   42  npm i yarn -g
+   43  npx react-native doctor
+   44  npm install -g react-native-cli3.
+   45  npm install -g react-native-cli3
+   46  clear
+   47  cd work/nativeproject/
+   48  npx react-native doctor
+   49  export ANDROID_HOME=$HOME/android
+   50  clear
+   51  npx react-native doctor
+   52  sudo sdkmanager "platforms;android-33" "build-tools;33.0.0"
+   53  npx react-native doctor
+   54  sdk
+   55  $ANDROID_HOME
+   56  CD ..
+   57  cd ..
+   58  ls android/
+   59  cd /
+   60  cd opt/
+   61  ls
+   62  android-sdk/
+   63  ls
+   64  cd android-sdk/
+   65  ls
+   66  mv build-tools/ ~/android
+   67  mv build-tools/ 
+   68  cd ~
+   69  ls
+   70  cd android/
+   71  ls
+   72  mv cmdline-tools/ /opt/android-sdk/
+   73  rm -r build-tools/
+   74  rm -r platforms/
+   75  cd /opt/android-sdk/
+   76  sudo mv build-tools/ ~/android
+   77  ls
+   78  sudo mv platforms/ ~/android
+   79  cd ~
+   80  clear
+   81  cd work/nativeproject/
+   82  npx react-native doctor
+   83  $ANDROID_HOME
+   84  cd work/nativeproject/
+   85  npm start
+   86  la
+   87  cat .bashrc 
+   88  clear
+   89  vim .bashrc 
+   90  clear
+   91  vim .bashrc 
+   92  npx react-native doctor
+   93  npm start
+   94  clear
+   95  cd work/nativeproject/
+   96  npx react-native doctor
+   97  clear
+   98  npm run start
+   99  npx react-native doctor
+  100  npm run start
+  101  yes | sdkmanager --licenses
+  102  npm run start
+  103  cd ..
+  104  ls
+  105  ls android/
+  106  rm -rf android/
+  107  clear
+  108  sudo rm -r sdkmanager "platforms;android-33" "build-tools;33.0.0"
+  109  sudo rm -r android/
+  110  sdkmanager "platforms;android-33" "build-tools;33.0.0"
+  111  sdkmanager "tools" "platform-tools"
+  112  ls android/
+  113  sdkmanager "cmdline-tools;latest"
+  114  sdkmanager "cmdline-tools@latest"
+  115  sdkmanager "cmdline-tool"
+  116  sdkmanager cmdline-tool
+  117  sdkmanager cmdline-tools@latest
+  118  cd work/nativeproject/
+  119  npx react-native doctor
+  120  cd ~
+  121  ls android/
+  122  ls android/platform
+  123  ls android/platform-tools/
+  124  clear
+  125  cd work/nativeproject/
+  126  npx react-native doctor
+  127  cd ~
+  128  sdkmanager "cmdline-tools;latest"
+  129  cd work/nativeproject/
+  130  clear
+  131  npm start 
+  132  yes | sdkmanager --licenses]
+  133  yes | sdkmanager --licenses
+  134  clear
+  135  sudo update-alternatives --config java
+  136  java
+  137  which java
+  138  which jvm
+  139  cd work/nativeproject/
+  140  sudo yes | sdkmanager --licenses
+  141  sudo apt-get install openjdk-8-jdk
+  142  sudo update-alternatives --config java
+  143  sudo yes | sdkmanager --licenses
+  144  clear
+  145  sudo yes | sdkmanager --licenses
+  146  clear
+  147  java
+  148  java --version
+  149  sudo update-alternatives --config java
+  150  java --version
+  151  clear
+  152  java --version
+  153  sudo update-alternatives --config java
+  154  sudo yes | sdkmanager --licenses
+  155  clear
+  156  cd work/nativeproject/
+  157  npx react-native doctor
+  158  npm start
+  159  [A
+  160  clear
+  161  npm start
+  162  sudo apt-get update
+  163  sudo apt-get install openjdk-9-jdk
+  164  sudo update-alternatives --config java
+  165  npm start
+  166  cd work/nativeproject/
+  167  npm run android/
+  168  npm run android
+  169  npx react-native doctor
+  170  npm run android
+  171  emulator -list-avds
+  172  emulator -list-avds -v
+  173  emulator -list-avds 
+  174  emulator 
+  175  emulator -list
+  176  emulator -avd-list
+  177  emulator -avd foo
+  178  npm run android
+  179  adb devices
+  180  npm install @react-navigation/native-stack react-native-screens react-native-safe-area-context
+  181  clear
+  182  npm run android
+  183  cd work/nativeproject/
+  184  npm run android
+  185  java --version
+  186  java version
+  187  java -version
+  188  java --version
+  189  sudo update-alternatives --config java
+  190  npm run android
+  191  cd ..
+  192  npx react-native init MoodTracker --template react-native-template-typescript
+  193  cd MoodTracker/
+  194  ls
+  195  code .
+  196  npm run android/
+  197  npm run android
+  198  npx react-native start
+  199  clear
+  200  npm run android
+  201  npx react-native android
+  202  npx react-native start
+  203  npx react-native run-android
+  204  npx react-native start
+  205  clear
+  206  cd work/MoodTracker/
+  207  npx react-native run-android
+  208  clear
+  209  npx react-native run-android
+  210  npx react-native s
+  211  npx react-native run-android
+  212  clear
+  213  npx react-native run-android
+  214  arrraclean
+  215  adb devices
+  216  clear
+  217  adb devices
+  218  clear
+  219  adb devices
+  220  clear
+  221  ad devices
+  222  adb devices
+  223  free -m
+  224  exit
+  225  $ sudo apt-get install ruby-full
+  226  sudo apt-get install ruby-full
+  227  whoami
+  228  pwd
+  229  distro
+  230  clear
+  231  version
+  232  help
+  233  clear
+  234  D
+  235  npx create-expo-app --template
+  236  npm run android
+  237  npx expo start
+  238  gls
+  239  ls
+  240  cd library/
+  241  npm install
+  242  npm i react-native-gesture-handler
+  243  npm run android
+  244  adb devices
+  245  adb devices
+  246  clear
+  247  adb devices
+  248  clear
+  249  clear
+  250  adb devices
+  251  npx expo start -a
+  252  npx expo start
+  253  npm install react-native
+  254  adb devices
+  255  clear
+  256  adb devices
+  257  goose
+  258  go
+  259  clear
+  260  git clone https://github.com/saadi925/AccountCreatorGoLang.git
+  261  ruby
+  262  clear
+  263  irb
+  264  clear
+  265  ruby 01.rb 
+  266  clear
+  267  ruby 01.rb 
+  268  cd cmd
+  269  ls
+  270  clear
+  271  npm install
+  272  npm run dev
+  273  go build
+  274  cd cmd
+  275  go build
+  276  sudo apt install golang-go
+  277  clear
+  278  cd ~
+  279  git config --global user.email userid925925@gmail.com 
+  280  git config --global user.name saadi925
+  281  clear
+  282  cd cmd
+  283  go build
+  284  go
+  285  export GO_PATH=/mnt/f/go/bin
+  286  go
+  287  claer
+  288  cd ~
+  289  clear
+  290  pwd
+  291  cd bin
+  292  pwd
+  293  cd ~
+  294  vim .bashrc
+  295  clear
+  296  cd ~
+  297  vim .bashrc
+  298  cd ./
+  299  cd ~
+  300  clear
+  301  vim .bashrc
+  302  clear
+  303  go
+  304  yarn install
+  305  yarn dev
+  306  npm init
+  307  git init
+  308  npm init
+  309  clear
+  310  mkdir src
+  311  touch .env
+  312  cd ~
+  313  vim .bashrc
+  314  clear
+  315  go
+  316  sudo apt install golang-go
+  317  go
+  318  clear
+  319  ls
+  320  cd cmd
+  321  clear
+  322  go build
+  323  sudo apt update
+  324  go version
+  325  go build
+  326  git branch -M main
+  327  clear
+  328  git commit -m "first commit"
+  329  git add .
+  330  git status
+  331  git init
+  332  git status
+  333  clear
+  334  touch .gitignore
+  335  git status
+  336  git add .
+  337  git commit -m "initial commit"
+  338  clear
+  339  git add remote github.com/saadi925/express-base-ts-eslint
+  340  git remote add  github.com/saadi925/express-base-ts-eslint
+  341  clear
+  342  git remote add  github.com/saadi925/express-base-ts-eslint
+  343  git remote add origin https://github.com/saadi925/base-express-ts-eslint.git
+  344  git push -u origin main
+  345  git remote add origin https://github.com/saadi925/base-express-ts-eslint.git
+  346  git push -u origin main
+  347  git origin
+  348  git remote
+  349  git remote origin
+  350  git remote origi
+  351  git remote add origin https://github.com/saadi925/base-express-ts-eslint.git
+  352  git push -u origin main
+  353  git push origin main
+  354  git remote remove origin
+  355  git remote add origin https://github.com/saadi925/base-express-ts-eslint.git
+  356  git push origin main
+  357  git remote remove origin
+  358  clear
+  359  git remote add origin https://github.com/saadi925/base-express-ts-eslint.git
+  360  git branch -M main
+  361  git push -u origin main
+  362  clear
+  363  git remote remove origin
+  364  clear
+  365  git remote
+  366  git remote -v
+  367  git remote origin
+  368  clear
+  369  npm i ejs
+  370  clear
+  371  npm i stripe
+  372  source .env
+  373  $STRIPE_SECRET_KEY
+  374  echo $STRIPE_SECRET_KEY
+  375  clear
+  376  npm i cors
+  377  npm install cors
+  378  npm i --save-dev @types/cors
+  379  npm install uuid
+  380  npm i --save-dev @types/uuid
+  381  npm run lint
+  382  npm run lint --fix
+  383  npm run lint:fix
+  384  clear
+  385  npm run build
+  386  git commit -m "stripe added"
+  387  git add .
+  388  git commit -m "stripe added"
+  389  clear
+  390  npm start
+  391  clear
+  392  git status
+  393  git commit --ammend  --no-edit
+  394  git commit --ammend  --no--edit
+  395  git commit --ammend 
+  396  git commit -m --ammend 
+  397  git add .
+  398  git commit -m --ammend 
+  399  git log --oneline
+  400  npm build
+  401  npm run build
+  402  clear
+  403  npm start
+  404  clear
+  405  npm run dev
+  406  npm build
+  407  npm run build
+  408  npm start
+  409  npm run dev
+  410  clear
+  411  git status
+  412  git commit -m "minor bug fixed , json parsing error solved"
+  413  git add .
+  414  git commit -m "minor bug fixed , json parsing error solved"
+  415  hub create
+  416  git remote add origin https://github.com/saadi925/stripe-express-with-ts.git
+  417  git branch -M main
+  418  git push -u origin main
+  419  git config --global user.password S03125447447@1a
+  420  git push -u origin main
+  421  git config --global user.password ""
+  422  npm create vite@latest 
+  423  cd react-stripe/
+  424  yarn install
+  425  cd react-stripe/
+  426  yarn install --save @stripe/react-stripe-js @stripe/stripe-js
+  427  yarn add --save @stripe/react-stripe-js @stripe/stripe-js
+  428  git init
+  429  git add . 
+  430  git commit -m "initial commit"
+  431  clear
+  432  yarn add --save @stripe/react-stripe-js
+  433  npm install --save @stripe/react-stripe-js
+  434  which npm
+  435  which go
+  436  wsl --set-version Ubuntu
+  437  wsl --set-version 2
+  438  wsl --set-version Ubuntu 2
+  439  wsl 
+  440  which npm
+  441  which sdk
+  442  which sdkmanager
+  443  exit
+  444  which npm
+  445  clear
+  446  exit
+  447  Ubuntu version
+  448  version
+  449  os
+  450  clear
+  451  cd ~
+  452  go install github.com/pressly/goose/v3/cmd/goose@latest
+  453  clear
+  454  sudo apt-get purge golang*
+  455  clear
+  456  sudo rm -rf /usr/local/go && sudo tar -C /usr/local -xzf go1.14.3.linux-amd64.tar.gz
+  457  go
+  458  golang
+  459  go-lang
+  460  clear
+  461  go-lang
+  462  golang
+  463  wget https://golang.org/dl/go1.21.4.linux-amd64.tar.gz
+  464  sudo rm -rf /usr/local/go && sudo tar -C /usr/local -xzf go1.21.4.linux-amd64.tar.gz
+  465  go version
+  466  export PATH=$PATH:/usr/local/go/bin
+  467  go version
+  468  clear
+  469  go install github.com/pressly/goose/v3/cmd/goose@latest
+  470  go install github.com/pressly/goose/v3/cmd/goose@latest -v
+  471  goose
+  472  go install github.com/pressly/goose/v3/cmd/goose@latest -v
+  473  go install github.com/pressly/goose/v3/cmd/goose@latest
+  474  vim .bashrc 
+  475  go install github.com/pressly/goose/v3/cmd/goose@latest
+  476  psql
+  477  sudo systemctl restart
+  478  sudo systemctl postgresql start
+  479  sudo service postgresql status
+  480  sudo service postgresql start
+  481  ps
+  482  psql
+  483  psql -U codestacklab
+  484  psql -U postgres
+  485  sudo -u postgres psql
+  486  clear
+  487  sudo apt update
+  488  sudo apt install nautilus -y
+  489  amd
+  490  nautilas
+  491  nautilus
+  492  clear
+  493  nautilus
+  494  ls
+  495  sudo apt install unzip
+  496  unzip radeon-crimson-15.12-15.302-151217a-297685e.zip
+  497  ls
+  498  cd fglrx-15.302/
+  499  ls
+  500  chmod +x amd-driver-installer-15.302-x86.x86_64.run 
+  501  ./amd-driver-installer-15.302-x86.x86_64.run 
+  502  cd ..
+  503  ls
+  504  rm -rf radeon-crimson-15.12-15.302-151217a-297685e.zip
+  505  rm -rf fglrx-15.302/
+  506  clear
+  507  nnautilus
+  508  nautilus
+  509  ls
+  510  rm 'go1.21.4 (1).linux-amd64'
+  511  rm -r 'go1.21.4 (1).linux-amd64' go1.21.4.linux-amd64.tar.gz radeon-crimson-15.12-15.302-151217a-297685e.zip\:Zone.Identifier 
+  512  ls
+  513  nautilus
+  514  ls
+  515  ls amdgpu-install_5.7.50700-1_all.deb
+  516  ls amdgpu-install_5.7.50700-1_all.deb -a
+  517  cat amdgpu-install_5.7.50700-1_all.deb
+  518  clear
+  519  ls
+  520  ./amdgpu-install_5.7.50700-1_all.deb
+  521  chmod +x  amdgpu-install_5.7.50700-1_all.deb
+  522  ./amdgpu-install_5.7.50700-1_all.deb
+  523  rm -rf amdgpu-install_5.7.50700-1_all.deb
+  524  rm -rf amd**
+  525  ls
+  526  cat package.json 
+  527  rm -rf node_modules/ package.json  package-lock.json 
+  528  sudo apt install gimp -y
+  529  clear
+  530  nautilus
+  531  clear
+  532  sudo apt update
+  533  wget https://repo.radeon.com/amdgpu-install/23.20.00.48/ubuntu/jammy/amdgpu-install_5.7.00.48.50700-1_all.deb
+  534  sudo apt install ./amdgpu-install_5.7.00.48.50700-1_all.deb
+  535  sudo amdgpu-install -y --usecase=graphics,rocm
+  536  sudo usermod -a -G render,video $LOGNAME
+  537  nautilus
+  538  sudo apt-get install gnupg curl
+  539  curl -fsSL https://pgp.mongodb.com/server-7.0.asc |    sudo gpg -o /usr/share/keyrings/mongodb-server-7.0.gpg    --dearmor
+  540  curl -fsSL https://pgp.mongodb.com/server-7.0.asc |    sudo gpg -o /usr/share/keyrings/mongodb-server-7.0.gpg    --dearmor
+  541  lsbrelease -a
+  542  ls_brelease -a
+  543  lsb_release -a
+  544  echo "deb [ arch=amd64,arm64 signed-by=/usr/share/keyrings/mongodb-server-7.0.gpg ] https://repo.mongodb.org/apt/ubuntu jammy/mongodb-org/7.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-7.0.list
+  545  sudo apt-get update
+  546  echo "mongodb-org hold" | sudo dpkg --set-selections
+  547  echo "mongodb-org-database hold" | sudo dpkg --set-selections
+  548  echo "mongodb-org-server hold" | sudo dpkg --set-selections
+  549  echo "mongodb-mongosh hold" | sudo dpkg --set-selections
+  550  echo "mongodb-org-mongos hold" | sudo dpkg --set-selections
+  551  echo "mongodb-org-tools hold" | sudo dpkg --set-selections
+  552  cat /etc/lsb-release
+  553  sudo systemctl start mongod
+  554  sudo systemctl restart
+  555  sudo systemctl systemmd restart
+  556  sudo systemmd restart
+  557  sudo systemctl start mongod
+  558  ps
+  559  cd ~
+  560  sudo systemctl start mongod
+  561  go build
+  562  ./cmd
+  563  cd ~
+  564  sudo systemctl start mongod
+  565  sudo snap install sqlc
+  566  go install github.com/sqlc-dev/sqlc/cmd/sqlc@latest
+  567  clear
+  568  cd ~
+  569  go install github.com/sqlc-dev/sqlc/cmd/sqlc@latest
+  570  git status
+  571  clear
+  572  goose
+  573  sqlc generate
+  574  sqlc
+  575  sqlc
+  576  clear
+  577  docker pull sqlc/sqlc
+  578  cd ..
+  579  cd ~
+  580  clear
+  581  docker
+  582  docker pull sqlc/sqlc
+  583  docker run --rm -v $(pwd):/src -w /src sqlc/sqlc generate
+  584  docker run --rm -v $(pwd):/src -w /src sqlc/sqlc generate
+  585  cd ~
+  586  sqlc generate
+  587  clear
+  588  nautilus
+  589  clear
+  590  cd ~
+  591  clear
+  592  ruby 01.rb 
+  593  clear
+  594  ruby 01.rb 
+  595  clear
+  596  postgres
+  597  psql
+  598  psql -U postgres
+  599  clear
+  600  sudo -u postgres psql
+  601  sudo systemctl start postgres
+  602  sudo systemctl postgresql start
+  603  sudo service postgresql start
+  604  psql version
+  605  psql -version
+  606  psql --version
+  607  psql
+  608  psql -U postgres
+  609  history
+  610  history | less
+  611  sudo -U postgres psql
+  612  sudo  postgres -U psql
+  613  sudo  psql -U postgres
+  614  sudo service postgres start
+  615  sudo service postgresql start
+  616  sudo psql -U postgres
+  617  histor || less 
+  618  histor |less 
+  619  history | less 
+  620  sudo -u postgres psql
+  621  ps
+  622  postgresql
+  623  psql
+  624  psql -h
+  625  psql -0h
+  626  psql --h
+  627  psql --help
+  628  clear
+  629  source .env
+  630  $port
+  631* 
+  632  echo $PORT 
+  633  clear
+  634  goose
+  635  clear
+  636  history >> history.txt

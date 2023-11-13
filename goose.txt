@@ -1,0 +1,1 @@
+goose --dir='./internal/sql/schema' postgres postgres://postgres:123@localhost:5432/rss?sslmode=disable
