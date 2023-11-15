@@ -15,10 +15,12 @@ func (apiCfg *ApiConfig) ApiAuth(handler authedHandler) http.HandlerFunc {
 		apiKey, err := auth.GetApiKeyFromHeader(r.Header)
 		if err != nil {
 			utils.RespondWithError(w, err, http.StatusUnauthorized)
+			return
 		}
 		user, err := apiCfg.DB.GetUsersByApiKey(r.Context(), apiKey)
 		if err != nil {
 			utils.RespondWithError(w, err, http.StatusInternalServerError)
+			return
 		}
 		handler(w, r, user)
 	}
