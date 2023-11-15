@@ -78,3 +78,14 @@ func DBFeedsFollowToFeedsFollow(dbFeedsFollow []database.FeedFollow) []FeedFollo
 	}
 	return feeds
 }
+
+type Post struct {
+	ID           uuid.UUID `json:"id"`
+	Title        string    `json:"title"`
+	CreatedAt    time.Time `json:"created_at"`
+	UpdatedAt    time.Time `json:"updated_at"`
+	Description  string    `json:"description"`
+	Url          string    `json:"url"`
+	Feed_id      string    `json:"feed_id"`
+	Published_at string    `json:"published_at"`
+}

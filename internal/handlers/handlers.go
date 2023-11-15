@@ -148,3 +148,4 @@ func (apiCfg *ApiConfig) DeleteFeedFollow(w http.ResponseWriter, r *http.Request
 	}
 	utils.RespondWithJSON(w, message, http.StatusOK)
 }
+
