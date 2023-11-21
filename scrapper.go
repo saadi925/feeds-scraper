@@ -46,12 +46,19 @@ func scrapeFeed(wg *sync.WaitGroup, db *database.Queries, feed database.Feed) {
 	if err != nil {
 		log.Print("url to feed err  ", err)
 	}
+	dateFormats := GetDateFormats()
 	for _, item := range rssFeed.Channel.Item {
 		description := sql.NullString{}
 		if item.Description != "" {
 			description.String = item.Description
 		}
-		publishedAt, err := time.Parse(time.RFC1123Z, item.PubDate)
+		var publishedAt time.Time
+		for _, format := range dateFormats {
+			publishedAt, err = time.Parse(format, item.PubDate)
+			if err == nil {
+				break
+			}
+		}
 		if err != nil {
 			log.Printf("could not parse date %v  \n error occured %v ", item.PubDate, err)
 			publishedAt = time.Now()
@@ -78,4 +85,14 @@ func scrapeFeed(wg *sync.WaitGroup, db *database.Queries, feed database.Feed) {
 		log.Println("err fetching feed", err)
 	}
 	log.Printf("feed %v collected %d posts", feed.Name, len((rssFeed.Channel.Item)))
+}
+
+func GetDateFormats() []string {
+	dateFormats := []string{
+		time.RFC1123Z,
+		time.RFC1123,
+		time.RFC822,
+		time.RFC822Z,
+	}
+	return dateFormats
 }
